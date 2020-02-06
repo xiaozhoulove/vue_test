@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="main" style="width: 900px;height:600px;"></div>
+    <div class="chart" id="main" style="width: 900px;height:600px;"></div>
   </div>
 </template>
 <script>
@@ -117,3 +117,10 @@ export default {
   }
 };
 </script>
+<style>
+.chart{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%)
+}
+</style>
